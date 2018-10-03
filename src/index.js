@@ -4,7 +4,7 @@ module.exports = function getZerosCount(number, base) {
   var a = new Array();
   var det;
   do
-  {
+  { if (base == 2) {break}
    if (base % i == 0) // "x" - Число, которое нам требуется разложить. Должно задаваться заранее.
    {
     a[j] = i;
