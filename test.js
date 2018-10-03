@@ -59,7 +59,7 @@ describe('Zeros', () => {
   });
 
   it('12', () => {
-    const zerosCount = getZerosCount(70497638, 2);
+    const zerosCount = getZerosCount(70497638, 42);
     assert.equal(zerosCount, 70497624);
   });
 
